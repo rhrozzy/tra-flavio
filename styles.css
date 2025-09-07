@@ -1,0 +1,16 @@
+/* Variáveis e corpo */
+:root {
+  --primary-color: #11d452;
+  --secondary-color: #e6ffe6;
+  --background-color: #f8fcf9;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4d4d4d;
+  --accent-color: #00b33c;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  min-height: max(884px, 100dvh);
+}
